@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #012B41;
+}
+
+.joke{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.joke h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #F5BC11;
+}
+
+.joke img{
+    padding: 10px;
+}
+
+.joke button{
+    margin: 20px;
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #F4AF0A;
+    border: none;
+    border-radius: 40px;
+}
+
+.joke h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
